@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hairtastic</title>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/variables.css">
+
+	<script src="https://kit.fontawesome.com/56f407c06a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<div class="header">
+		<h1>Hairtastic</h1>
+	</div>
+
+	<div class="menu">
+
+		<a href="index.html"> HOME  </a>
+		<a href="prices.html"> PRICES  </a>
+		<a href="products.html"> PRODUCTS  </a>
+		<a href="contact.html"> CONTACT </a>
+
+	</div>
+
+	<div class="main-page-container">
+		<div id ="test" class="products-container">
+
+			<img src="assets/pictures/products/kerastase/blond-absolu-violet-sh.jpg" alt="kerastase-blonde-absolute-violet-shampoo" class="products">
+
+			<img src="assets/pictures/products/kerastase/blond-absolu-lumiere-sh.jpg" alt="kerastase-blonde-absolute-lumiere-shampoo" class="products">
+
+			<img src="assets/pictures/products/kerastase/blond-absolu-leavein.jpg" alt="kerastase-blonde-absolute-leave-in-cream" class="products">
+
+			<img src="assets/pictures/products/kerastase/blond-absolu-oil.jpg" alt="kerastase-blonde-absolute-oil" class="products">
+
+			<img src="assets/pictures/products/kerastase/blond-absolu-mask.jpg" alt="kerastase-blonde-absolute-mask" class="products">
+
+			<img src="assets/pictures/products/kerastase/densifique-sh.jpg" alt="kerastase-densifique-shampoo" class="products">
+
+			<img src="assets/pictures/products/kerastase/densifique-con.jpg" alt="kerastase-densifique-conditioner" class="products">
+
+			<img src="assets/pictures/products/kerastase/densifique-serum.jpg" alt="kerastase-densifique-serum" class="products">
+
+			<img src="assets/pictures/products/kerastase/symbiose-sh.jpg" alt="kerastase-symbiose-shampoo" class="products">
+
+			<img src="assets/pictures/products/kerastase/symbiose-con.jpg" alt="kerastase-symbiose-conditioner" class="products">
+
+			<img src="assets/pictures/products/kerastase/symbiose-serum.jpg" alt="kerastase-symbiose-serum" class="products">
+		</div>
+
+		<!-- test -->
+
+		<aside>
+			<div>
+				<div>Product line</div> 
+				<button class="filter-button" data-filter-by="product-line" data-filter="blonde-absolu">Blonde Absolu</button>
+				<button class="filter-button" data-filter-by="product-line" data-filter="densifique">Densifique</button>
+				<button class="filter-button" data-filter-by="type" data-filter="legume">Legumes</button>
+			</div>
+			
+			<div>
+				<div>Product benefit</div>
+				<button class="filter-button" data-filter-by="product-benefit" data-filter="nourishing">Nourishing</button>
+				<button class="filter-button" data-filter-by="color" data-filter="green">Green</button>
+				<button class="filter-button" data-filter-by="color" data-filter="yellow">Yellow</button>
+				<button class="filter-button" data-filter-by="color" data-filter="orange">Orange</button>
+				<button class="filter-button" data-filter-by="color" data-filter="brown">Brown</button>
+			</div>
+
+						
+			<div>
+				<div>Product type</div>
+				<button class="filter-button" data-filter-by="product-type" data-filter="shampoo">Shampoo</button>
+				<button class="filter-button" data-filter-by="size" data-filter="medium">Medium</button>
+				<button class="filter-button" data-filter-by="size" data-filter="large">Large</button>
+			</div>
+			
+			<button class="filter-button" data-filter="*">Clear!</button>
+		</aside>
+
+		<main>
+			<div class="list-items">
+
+				<div class="list-item" data="product-benefit" data-type="product-type" data="blonde-absolu">Apple</div>
+				<div class="list-item" data-color="red" data-type="vegetable">Tomato</div>
+				<div class="list-item" data-color="yellow" data-type="fruit">Banana</div>
+				<div class="list-item" data-color="brown" data-type="legume">Lentils</div>
+				<div class="list-item" data-color="green" data-type="vegetable">Lettuce</div>
+				<div class="list-item" data-color="brown" data-type="fruit">Pineapple</div>
+				<div class="list-item" data-color="black" data-type="fruit">Avocado</div>
+				<div class="list-item" data-color="green" data-type="fruit">Pear</div>
+				<div class="list-item" data-color="brown" data-type="legume">Beans</div>
+				<div class="list-item" data-color="red" data-type="fruit">Strawberry</div>
+				<div class="list-item" data-color="orange" data-type="fruit">Peas</div>
+			</div>
+		</main>
+
+
+		<!-- test -->
+		
+	</div>	
+	
+	
+	<!-- Footer start -->
+
+	<div class="footer">
+		<div class="column-1">
+			<h3>USEFUL LINKS</h3>
+			<a href="****">About</a>
+			<a href="****">Services</a>
+			<a href="****">Contact</a>
+			<a href="****">Blog</a>
+		</div>
+		<div class="column-2">
+			<h3>NEWSLETTER</h3>
+			<form>
+				<input type="email" placeholder="Your Email Adress" required>
+				<br>
+				<button type="submit">SUBSCRIBE NOW</button>
+			</form>
+		</div>
+		<div class="column-3">
+			<h3>CONTACT</h3>
+			<p>Snarøyveien 55, 1364, Fornebu <br> Norway</p>
+			<div class="social-icons">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+			
+		</div>
+	</div>
+
+<!-- Footer end -->
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
