@@ -51,11 +51,11 @@ a {
 	color: #fff;
 	text-align: center;
 	font-weight: normal;
-	font-size: 50px;
+	font-size: 35px;
 	font-family: 'HARRYP';
 	background: #333;
 	/* border: #372e29 3px; */
-	padding: 10px 15%;
+	padding: 20px 15%;
 
 
 	display: flex;
@@ -183,7 +183,7 @@ a {
 .contact {
 	width: 800px;
 	margin: 40px;
-	padding: 10px;
+	padding: 50px;
 	font-family: system-ui;
 	text-shadow: #372e29;
 	background-color: #fff;
@@ -231,6 +231,86 @@ a {
 
 /* Prices page end */
 
+/* Booking page start */
+
+.booking-container {
+	background: #fff;
+
+	width: 800px;
+	margin: 5%;
+
+	font-family: system-ui;
+	letter-spacing: 1px;
+	overflow: hidden;
+	border-radius: 20px;
+	border: 1px solid #372e29;
+	padding: 50px;
+	/* padding-left: 40px; */
+	position: relative;
+	text-align: left;
+	color: #372e29;
+}
+  
+  div.elem-group {
+	margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+	width: 49%;
+	display: inline-block;
+	float: left;
+	margin-left: 1%;
+  }
+  
+  label {
+	display: block;
+	font-family: 'Nanum Gothic';
+	padding-bottom: 10px;
+	font-size: 1rem;
+  }
+  
+  input, select, textarea {
+	border-radius: 2px;
+	border: 2px solid #777;
+	box-sizing: border-box;
+	font-size: 1rem;
+	font-family: 'Nanum Gothic';
+	width: 100%;
+	padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+	width: 50%;
+	display: inline-block;
+  }
+  
+  textarea {
+	height: 250px;
+  }
+  
+  hr {
+	border: 1px dotted #ccc;
+  }
+  
+  button {
+	height: 50px;
+	background: #777;
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	font-family: 'Nanum Gothic';
+	border-radius: 8px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	border: 2px solid #333;
+  }
+
+
+/* Booking page end */
+
+
 /* Products page start */
 
 .products-container {
@@ -258,6 +338,35 @@ a {
 	transform: scale(1.1, 1.1) rotate(5deg);
 }
 
+.products-list-container{
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.products-list-element{
+	background: whitesmoke;
+	padding: 1rem;
+}
+
+@media only screen and (max-width: 1300px) {
+	.products-list-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+  }
+
+@media only screen and (max-width: 1000px) {
+	.products-list-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+  }
+
+@media only screen and (max-width: 700px) {
+	.products-list-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+  }
 /* Kerastase */
 
 .products-container {

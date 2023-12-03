@@ -76,6 +76,7 @@ slideshows.forEach(slideshow => {
 /* test filtrering */
 
 
+
 const filterButtons = document.querySelectorAll('.filter-button');
 const listItems = document.querySelectorAll('.list-item'); //NodeList
 const listItemsContainer = document.querySelector('.list-items');
@@ -228,7 +229,7 @@ const productInfo=[
 ]
 
 
-const kerastaseContainer = document.getElementById('test');
+//const kerastaseContainer = document.getElementById('test');
 // Insert <p> elements into the container
 
 function filter (){
@@ -241,4 +242,32 @@ function filter (){
 	})
 }
 
-filter ()
+//filter ()
+
+
+
+/* Booking page start*/
+
+var currentDateTime = new Date();
+var year = currentDateTime.getFullYear();
+var month = (currentDateTime.getMonth() + 1);
+var date = currentDateTime.getDate() + 1;
+
+if (date < 10) {
+  date = '0' + date;
+}
+if (month < 10) {
+  month = '0' + month;
+}
+
+var dateTomorrow = year + "-" + month + "-" + date;
+var appointmentDateElem = document.querySelector("#appointment-date");
+
+appointmentDateElem.setAttribute("min", dateTomorrow);
+
+
+/* Booking page end */
+
+
+
+

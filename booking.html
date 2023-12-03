@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hairtastic</title>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/variables.css">
+
+	<script src="https://kit.fontawesome.com/56f407c06a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<div class="header">
+		<h1>Hairtastic</h1>
+	</div>
+
+	<div class="menu">
+
+		<a href="index.html"> HOME  </a>
+		<a href="prices.html"> PRICES  </a>
+		<a href="products.html"> PRODUCTS  </a>
+		<a href="booking.html"> BOOKING </a>
+		<a href="membership.html"> CLUB </a>
+
+	</div>
+
+	<div class="main-page-container">
+		<div class="booking-container"
+
+
+		<form action="appointment_reservation.php" method="post">
+			<div class="elem-group">
+				<label for="name">Your Name</label>
+				<input type="text" id="name" name="visitor_name" placeholder="Your Full Name" pattern="[A-Za-z\s]{3,50}" required>
+			</div>
+			<div class="elem-group">
+				<label for="email">Your E-mail</label>
+				<input type="email" id="email" name="visitor_email" placeholder="your.email@example.com" required>
+			</div>
+			<div class="elem-group">
+				<label for="phone">Your Phone</label>
+				<input type="tel" id="phone" name="visitor_phone" placeholder="123-456-7890" pattern="\d{3}-?\s?\d{3}-?\s?\d{4}" required>
+			</div>
+			<hr>
+		
+			<label for="appointment-date">Appointment Date and Time:</label>
+			<input type="datetime-local" id="appointment-date" name="appointment_date" required>
+		
+			<div class="elem-group inlined">
+				<label for="service-selection">Select a Hairdressing Service</label>
+				<select id="service-selection" name="service_preference" required>
+					<option value="">Choose a service</option>
+					<option value="haircut">Haircut</option>
+					<option value="coloring">Hair Coloring</option>
+					<option value="styling">Hair Styling</option>
+					<!-- Add more service options as needed -->
+				</select>
+			</div>
+			<hr>
+			<div class="elem-group">
+				<label for="additional-info">Anything Else?</label>
+				<textarea id="additional-info" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+			</div>
+			<button type="submit">Book The Appointment</button>
+		</form>
+		
+
+
+		  </div>
+
+
+	</div>
+
+
+	<!-- Footer start -->
+
+	<div class="footer">
+		<div class="column-1">
+			<h3>USEFUL LINKS</h3>
+			<a href="****">About</a>
+			<a href="****">Services</a>
+			<a href="****">Contact</a>
+			<a href="****">Blog</a>
+		</div>
+		<div class="column-2">
+			<h3>NEWSLETTER</h3>
+			<form>
+				<input type="email" placeholder="Your Email Adress" required>
+				<br>
+				<button type="submit">SUBSCRIBE NOW</button>
+			</form>
+		</div>
+		<div class="column-3">
+			<h3>CONTACT</h3>
+			<p>Snarøyveien 55, 1364, Fornebu <br> Norway</p>
+			<div class="social-icons">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+			
+		</div>
+	</div>
+
+<!-- Footer end -->
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
