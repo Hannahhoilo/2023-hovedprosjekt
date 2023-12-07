@@ -2,29 +2,14 @@ html {
 	font-size: var(--font-size-base);
 }
 
-/* Alehandro sin. standard
-body {
-	font-family: 'Inter', 'Arial', sans-serif;
-	padding: var(--spacing-medium);
-	display: flex;
-	flex-flow: row nowrap;
-	gap: var(--spacing-large);
-}
-*/
 body {
 	background-image: url('../assets/pictures/background3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-
 	background-color: #cccccc;
-	/* Used if the image is unavailable */
 	height: 500px;
-	/* You must set a specified height */
 	background-position: center;
-	/* Center the image */
-
-
 }
 
 a {
@@ -53,10 +38,7 @@ a {
 	font-weight: normal;
 	font-size: 35px;
 	background: #333;
-	/* border: #372e29 3px; */
 	padding: 20px 15%;
-
-
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: flex-start;
@@ -88,17 +70,14 @@ a {
 
 .description {
 	background: #fff;
-
 	width: 80%;
 	margin: 5%;
-
 	font-family: system-ui;
 	letter-spacing: 1px;
 	overflow: hidden;
 	border-radius: 20px;
 	border: 1px solid #372e29;
 	padding: 50px;
-	/* padding-left: 40px; */
 	position: relative;
 	text-align: left;
 	color: #372e29;
@@ -108,10 +87,6 @@ a {
 
 .slideshow {
 	position: relative;
-	/* position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); */
 	width: 600px;
 	height: 600px;
 }
@@ -248,10 +223,8 @@ a {
 
 .booking-container {
 	background: #fff;
-
 	width: 800px;
 	margin: 5%;
-
 	font-family: system-ui;
 	letter-spacing: 1px;
 	overflow: hidden;
@@ -320,25 +293,20 @@ a {
 	border: 2px solid #333;
   }
 
-
 /* Booking page end */
-
 
 /* Products page start */
 
 .product-description {
 	background: #fff;
-
 	width: 80%;
 	margin: 5%;
-
 	font-family: system-ui;
 	letter-spacing: 1px;
 	overflow: hidden;
 	border-radius: 20px;
 	border: 1px solid #372e29;
 	padding: 50px;
-	/* padding-left: 40px; */
 	position: relative;
 	text-align: left;
 	color: #372e29;
@@ -400,34 +368,6 @@ a {
 		grid-template-columns: repeat(1, 1fr);
 	}
   }
-/* Kerastase */
-
-.products-container {
-	justify-content: left;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 10px;
-	flex-basis: 350px;
-}
-
-.kerastaseProductsContainer {
-	display: flex;
-	flex-direction: row;
-	margin-left: auto;
-	margin-right: auto;
-	align-items: left;
-	border-radius: 15px;
-	overflow: none;
-	width: 250px;
-	height: 150px;
-	transition: transform 200ms ease;
-	background-color: red;
-}
-
-.kerastaseProductsContainer:hover {
-	transform: scale(1.1, 1.1) rotate(5deg);
-}
 
 /* Products page end */ 
 
@@ -449,15 +389,6 @@ button {
 	border-color: white;
 	color: white;
 }
-
-/* .list-item {
-	display: none;
-}
-
-.list-item--visible {
-	display: block;
-} */
-
 
 /* Footer start */
 
@@ -526,21 +457,3 @@ form button {
 }
 
 /* Footer end */
-
-/*
---font-size-base: 30px;
-
---color-primary: #483534;
---color-secondary: #EFE9E1;
---color-tertiary: #D0D5CE;
-
---color-accent-1: #D0D5CE;
---color-accent-2: #EDDA98;
---color-accent-3: #ED9898;
-
---border-radius: 15px;
-
---spacing-small: 0.5rem;
---spacing-medium: 1rem;
---spacing-large: 2rem;
-*/

@@ -1,5 +1,5 @@
+/* Products filter page */
 
-/* Products */
 let productItemContainer = document.getElementById("product-list-container");
 let kerastaseSelector = document.getElementById("kerastase");
 let matrixSelector = document.getElementById("matrix");

@@ -34,45 +34,44 @@
 		<div class="booking-container"
 
 
-		<form action="appointment_reservation.php" method="post">
-			<div class="elem-group">
-				<label for="name">Your Name</label>
-				<input type="text" id="name" name="visitor_name" placeholder="Your Full Name" pattern="[A-Za-z\s]{3,50}" required>
-			</div>
-			<div class="elem-group">
-				<label for="email">Your E-mail</label>
-				<input type="email" id="email" name="visitor_email" placeholder="your.email@example.com" required>
-			</div>
-			<div class="elem-group">
-				<label for="phone">Your Phone</label>
-				<input type="tel" id="phone" name="visitor_phone" placeholder="123-456-7890" pattern="\d{3}-?\s?\d{3}-?\s?\d{4}" required>
-			</div>
-			<hr>
-		
-			<label for="appointment-date">Appointment Date and Time:</label>
-			<input type="datetime-local" id="appointment-date" name="appointment_date" required>
-		
-			<div class="elem-group inlined">
-				<label for="service-selection">Select a Hairdressing Service</label>
-				<select id="service-selection" name="service_preference" required>
-					<option value="">Choose a service</option>
-					<option value="haircut">Haircut</option>
-					<option value="coloring">Hair Coloring</option>
-					<option value="styling">Hair Styling</option>
-					<!-- Add more service options as needed -->
-				</select>
-			</div>
-			<hr>
-			<div class="elem-group">
-				<label for="additional-info">Anything Else?</label>
-				<textarea id="additional-info" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
-			</div>
-			<button type="submit">Book The Appointment</button>
-		</form>
-		
+			<form action="appointment_reservation.php" method="post">
+				<div class="elem-group">
+					<label for="name">Your Name</label>
+					<input type="text" id="name" name="visitor_name" placeholder="Your Full Name" pattern="[A-Za-z\s]{3,50}" required>
+				</div>
+				<div class="elem-group">
+					<label for="email">Your E-mail</label>
+					<input type="email" id="email" name="visitor_email" placeholder="your.email@example.com" required>
+				</div>
+				<div class="elem-group">
+					<label for="phone">Your Phone</label>
+					<input type="tel" id="phone" name="visitor_phone" placeholder="123-456-7890" pattern="\d{3}-?\s?\d{3}-?\s?\d{4}" required>
+				</div>
+				<hr>
+			
+				<label for="appointment-date">Appointment Date and Time:</label>
+				<input type="datetime-local" id="appointment-date" name="appointment_date" required>
+			
+				<div class="elem-group inlined">
+					<label for="service-selection">Select a Hairdressing Service</label>
+					<select id="service-selection" name="service_preference" required>
+						<option value="">Choose a service</option>
+						<option value="haircut">Haircut</option>
+						<option value="coloring">Hair Coloring</option>
+						<option value="styling">Hair Styling</option>
+					</select>
+				</div>
+				<hr>
+				<div class="elem-group">
+					<label for="additional-info">Anything Else?</label>
+					<textarea id="additional-info" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+				</div>
+				<button type="submit">Book The Appointment</button>
+			</form>
+			
 
 
-		  </div>
+		</div>
 
 
 	</div>
